@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8eb025fd50.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- own css -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="navbar">
+        <!-- nav-bar -->
+        <nav class="nav navbar   navbar-expand-md navbar-dark">
+
+            <a href="" class="navbar-brand">Portfolio</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#downlaod" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </section>
+    <section id="title">
+        <!-- title -->
+        <div class="row" id="title-head">
+            <div class="col-lg-9 col-md-8">
+                <h1 id="name">Hi, I am Harshit Sathone</h1>
+                <h5 style="color:#eaeaea">Intern at Persistent Systems Limited, I am interested in Java and Web development. Currently studying in 8 Semester</h5>
+                <div id="search" class="container-fluid">
+                    Java Developer <i class="fa-solid fa-circle-arrow-right" id="search-icon"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 text-center">
+                <img src="face.jpg" alt="potrait" id="protrait-img">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div id="education">
+            <h2>Education</h2>
+            <hr>
+            <div id="engg" class="row">
+                <div class="col-lg-6">
+                    <div class="edu-title">Bachelor of Engineering - Information Technology</div>Yeshwantrao Chavan College of Engineering, Nagpur
+                </div>
+                <div class="col-lg-6 " id="grade-bar-outline">
+                    <div id="grade-bar-engg">
+                        75% (8.25 CGPA)
+                    </div>
+                </div>
+            </div>
+            <div id="diploma" class="row">
+                <div class="col-lg-6">
+                    <div class="edu-title">High School Diploma - Computer Engineering</div>Acharya Shrimannarayan Polytechnic, Pipri
+                </div>
+                <div class="col-lg-6 " id="grade-bar-outline">
+                    <div id="grade-bar-diploma">
+                        89.83%
+                    </div>
+                </div>
+            </div>
+
+            <div id="secondary" class="row">
+                <div class="col-lg-6">
+                    <div class="edu-title">Secondary School</div>School of Scholars, Wardha
+                </div>
+                <div class="col-lg-6 " id="grade-bar-outline">
+                    <div id="grade-bar-school">
+                        76.2% (8.2 CGPA)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="row">
+            <div class="col-sm-3 col-6">
+                Java
+            </div>
+            <div class="col-sm-3 col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="col-sm-3 col-6">
+                Android
+            </div>
+            <div class="col-sm-3 col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="col-sm-3 col-6">
+                Python
+            </div>
+            <div class="col-sm-3 col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="col-sm-3 col-6">
+                DSA
+            </div>
+            <div class="col-sm-3 col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="col-sm-3 col-6">
+                SQL
+            </div>
+            <div class="col-sm-3 col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="col-sm-3 col-6">
+                Problem-Solving
+            </div>
+            <div class="col-sm-3 col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <ul>
+            <li>Ayurvedic Leaves Identification using Deep learning</li>
+            <li>Emergency medical services</li>
+            <li>Weatheureka</li>
+            <li>Password Manager</li>
+            <li>BMI calculatort</li>
+            <li>Tic-tac-toe</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <a class="icons" href="https://www.linkedin.com/in/harshit-sathone-a8a975213/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="icons" href="https://instagram.com/th3_harshit_s?igshid=NTE5MzUyOTU=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="icons" href="mailto:harshitsathone@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a class="icons" href="https://github.com/Victor5H/" target="_blank"> <i class="fa-brands fa-github"></i></a>
+        <div id="copyright">Copyright@2023</div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+body {
+    font-family: 'Work Sans';
+    background-color: #000;
+    font-size: 1.15rem;
+    color: #fff;
+}
+
+#navbar {
+    padding: 1% 5%;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#title {
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    padding: 2% 5%;
+    background-color: #2173b6;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#search-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+    color: white;
+    float: right;
+}
+
+#search {
+    margin-top: 10%;
+    margin-bottom: 10px;
+    border: 2px #FFF solid;
+    padding: 10px;
+    width: 40%;
+    border-radius: 15px;
+    color: white;
+    background-color: #2173b6;
+}
+
+#title-head {
+    margin-top: 1.75%;
+}
+
+#protrait-img {
+    border-radius: 50%;
+    border: beige 2px solid;
+    width: 75%;
+}
+
+#education {
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    padding: 2% 5%;
+    background-color: #987dbf;
+}
+
+.edu-title {
+    font-weight: bold;
+}
+
+#grade-bar-school {
+    background-color: #18186a;
+    border-radius: 8px;
+    text-align: start;
+    width: 76.2%;
+    padding: 2%;
+    height: 100%;
+}
+
+#diploma {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#grade-bar-outline {
+    border-radius: 10px;
+    background-color: #66616e;
+    border: 2px solid #4d2681;
+    padding: 0 0 0 0;
+}
+
+#grade-bar-diploma {
+    background-color: #18186a;
+    border-radius: 8px;
+    text-align: start;
+    width: 89.83%;
+    padding: 2%;
+    height: 100%;
+}
+
+#grade-bar-engg {
+    background-color: #18186a;
+    border-radius: 8px;
+    text-align: start;
+    width: 75%;
+    padding: 2%;
+    height: 100%;
+}
+
+#skills {
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    padding: 2% 5%;
+    background-color: #1e556e;
+}
+
+#projects {
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    padding: 2% 5%;
+    background-color: #987dbf;
+}
+
+
+/* footer */
+
+.icons {
+    color: #987dbf;
+    font-size: 1.75rem;
+    padding: 2% 2%;
+}
+
+#contact {
+    text-align: center;
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    padding: 5% 5%;
+    border: 1px solid;
+}
+
+#copyright {
+    margin-top: 2.5%;
+    font-size: small;
+    color: wheat;
+}
