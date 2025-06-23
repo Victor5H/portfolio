@@ -3,6 +3,7 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import React, { useEffect, useState } from 'react'
 
+
 // Import assets
 import profileImage from '/profile.jpg'
 
@@ -120,7 +121,7 @@ function AboutMe() {
 function Projects() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch('/projects.json')
+    fetch('projects.json')
       .then(res => res.json())
       .then(data => setProjects(data));
   }, []);
