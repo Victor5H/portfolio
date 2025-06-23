@@ -10,23 +10,19 @@
     "status": "Ongoing Personal Project"
   },
   {
-    "title": "Gadget Gizmo (E-commerce project)",
+    "title": "Identification of Ayurvedic leaves using Deep Learning",
     "bullets": [
-      "Designed and developed RESTful APIs for a microservices-based Java backend using Spring Boot, integrated with MongoDB and GCP Cloud Storage to support e-commerce operations.",
-      "Implemented secure authentication using Spring Security and JWT tokens.",
-      "Ensured code quality with Test-Driven Development (TDD) using JUnit and Mockito.",
-      "Automated CI/CD using Jenkins to deploy containers on GKE."
+      "Developed an Android application to scan and identify various types of Ayurvedic leaves.",
+      "The algorithm used was CNN (Convolutional Neural Network) and the model had an accuracy of 94. 10 %."
     ],
-    "status": "Ongoing Personal Project"
+    "status": "College Final Year Project"
   },
   {
-    "title": "Gadget Gizmo (E-commerce project)",
+    "title": "Emergency Medical Service",
     "bullets": [
-      "Designed and developed RESTful APIs for a microservices-based Java backend using Spring Boot, integrated with MongoDB and GCP Cloud Storage to support e-commerce operations.",
-      "Implemented secure authentication using Spring Security and JWT tokens.",
-      "Ensured code quality with Test-Driven Development (TDD) using JUnit and Mockito.",
-      "Automated CI/CD using Jenkins to deploy containers on GKE."
+      "Developed a location enabled android application, which helps victims get help in any kind of any emergency (medical/police).",
+      "Provides responder with necessary data like location, situation of victim with GPS and images."
     ],
-    "status": "Ongoing Personal Project"
+    "status": "Diploma Final Year Project"
   }
 ] 

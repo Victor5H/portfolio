@@ -52,7 +52,7 @@ function Hero() {
       <div className="hero-left">
         <div className="hero-stats">
           <div><span>~2</span><br />Years Exp</div>
-          <div><span>5+</span><br />Projects</div>
+          {/* <div><span>5+</span><br />Projects</div> */}
         </div>
         <h1 className="hero-hello">Hello, I'm Harshit Sathone</h1>
         <p className="hero-desc">GCP-certified Backend Engineer (Professional Cloud Architect) specializing in scalable Spring Boot microservices and DevOps automation. Expertise in high-volume systems, Kafka pipeline optimization, and cloud-native deployments (GCP/AWS/Kubernetes). Proven track record enhancing system resilience and CI/CD efficiency.</p>
@@ -218,8 +218,12 @@ function Education() {
 }
 
 const achievements = [
-  { text: 'Google Cloud Platform Professional Cloud Architect Certification - May 2024' },
-  { text: 'Google Cloud Platform Associate Cloud Engineer Certification - Dec 2023' },
+  { text: 'Google Cloud Platform Professional Cloud Architect Certification - May 2024' ,
+    link: 'https://www.credly.com/badges/7a3fea81-44c2-479c-8cdf-e215f8b2013a/public_url' 
+  },
+  { text: 'Google Cloud Platform Associate Cloud Engineer Certification - Dec 2023' ,
+    link: 'https://www.credly.com/badges/a03a8422-a63b-4e7b-9b9f-b09e1d0d6141/public_url' 
+  },
   { text: 'Design and Analysis of Algorithms (NPTEL) - April 2022' },
   { 
     text: 'IEEE Paper Publication - 2023: Identification of Ayurvedic leaves using Deep Learning',
