@@ -3,6 +3,9 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import React, { useEffect, useState } from 'react'
 
+// Import assets
+import profileImage from '/profile.jpg'
+
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
@@ -53,10 +56,10 @@ function Hero() {
         <h1 className="hero-hello">Hello, I'm</h1>
         <p className="hero-name">Harshit Sathone</p>
         <p className="hero-desc">GCP-certified Backend Engineer (Professional Cloud Architect) specializing in scalable Spring Boot microservices and DevOps automation. Expertise in high-volume systems, Kafka pipeline optimization, and cloud-native deployments (GCP/AWS/Kubernetes). Proven track record enhancing system resilience and CI/CD efficiency.</p>
-        <a className="download-resume-btn" href="/Harshit's resume_new.pdf" download>Download Resume (PDF)</a>
+        <a className="download-resume-btn" href="/portfolio/Harshit's resume_new.pdf" download>Download Resume (PDF)</a>
       </div>
       <div className="hero-right">
-        <img className="hero-img" src="/profile.jpg" alt="Harshit Sathone" />
+        <img className="hero-img" src={profileImage} alt="Harshit Sathone" />
       </div>
     </section>
   )
