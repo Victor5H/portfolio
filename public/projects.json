@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Gadget Gizmo (E-commerce project)",
+    "bullets": [
+      "Designed and developed RESTful APIs for a microservices-based Java backend using Spring Boot, integrated with MongoDB and GCP Cloud Storage to support e-commerce operations.",
+      "Implemented secure authentication using Spring Security and JWT tokens.",
+      "Ensured code quality with Test-Driven Development (TDD) using JUnit and Mockito.",
+      "Automated CI/CD using Jenkins to deploy containers on GKE."
+    ],
+    "status": "Ongoing Personal Project"
+  },
+  {
+    "title": "Gadget Gizmo (E-commerce project)",
+    "bullets": [
+      "Designed and developed RESTful APIs for a microservices-based Java backend using Spring Boot, integrated with MongoDB and GCP Cloud Storage to support e-commerce operations.",
+      "Implemented secure authentication using Spring Security and JWT tokens.",
+      "Ensured code quality with Test-Driven Development (TDD) using JUnit and Mockito.",
+      "Automated CI/CD using Jenkins to deploy containers on GKE."
+    ],
+    "status": "Ongoing Personal Project"
+  },
+  {
+    "title": "Gadget Gizmo (E-commerce project)",
+    "bullets": [
+      "Designed and developed RESTful APIs for a microservices-based Java backend using Spring Boot, integrated with MongoDB and GCP Cloud Storage to support e-commerce operations.",
+      "Implemented secure authentication using Spring Security and JWT tokens.",
+      "Ensured code quality with Test-Driven Development (TDD) using JUnit and Mockito.",
+      "Automated CI/CD using Jenkins to deploy containers on GKE."
+    ],
+    "status": "Ongoing Personal Project"
+  }
+] 
