@@ -51,11 +51,10 @@ function Hero() {
     <section className="hero-section-minimal">
       <div className="hero-left">
         <div className="hero-stats">
-          <div><span>+2</span><br />Years Exp</div>
-          <div><span>+5</span><br />Projects</div>
+          <div><span>~2</span><br />Years Exp</div>
+          <div><span>5+</span><br />Projects</div>
         </div>
-        <h1 className="hero-hello">Hello, I'm</h1>
-        <p className="hero-name">Harshit Sathone</p>
+        <h1 className="hero-hello">Hello, I'm Harshit Sathone</h1>
         <p className="hero-desc">GCP-certified Backend Engineer (Professional Cloud Architect) specializing in scalable Spring Boot microservices and DevOps automation. Expertise in high-volume systems, Kafka pipeline optimization, and cloud-native deployments (GCP/AWS/Kubernetes). Proven track record enhancing system resilience and CI/CD efficiency.</p>
         <a className="download-resume-btn" href="/portfolio/Harshit's resume_new.pdf" download>Download Resume (PDF)</a>
       </div>
@@ -88,7 +87,7 @@ function AboutMe() {
             <span className="about-skill-pill">GitHub</span>
             <span className="about-skill-pill">MongoDB</span>
             <span className="about-skill-pill">SQL</span>
-            <span className="about-skill-pill">Agile</span>
+            <span className="about-skill-pill">Agile Methodology</span>
           </div>
         </div>
         <div className="about-skill-group">
@@ -109,7 +108,7 @@ function AboutMe() {
         <div className="about-skill-group">
           <div className="about-skill-label">OS</div>
           <div className="about-skill-pills">
-            <span className="about-skill-pill">Debian</span>
+            <span className="about-skill-pill">Windows</span>
             <span className="about-skill-pill">Ubuntu</span>
           </div>
         </div>

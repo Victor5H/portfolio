@@ -40,15 +40,15 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #eeeeee;
 }
 
 /* Portfolio custom styles */
 :root {
-  --bg-color: #f0f2f5;
+  --bg-color: #c1e4f0;
   --text-color: #1c1e21;
   --heading-color: #0d1b2a;
-  --accent-color: #3a86ff;
+  --accent-color: #3b7de7;
   --card-bg: #ffffff;
   --border-color: #e0e0e0;
   --shadow-color: rgba(0, 0, 0, 0.05);
@@ -388,10 +388,11 @@ section {
 }
 
 .navbar.scrolled {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 2px 10px var(--shadow-color);
+  border-radius:12px ;
 }
 
 .navbar-left {
@@ -499,7 +500,7 @@ section {
   color: #181818;
 }
 .hero-hello {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 900;
   margin: 0 0 0.5rem 0;
   letter-spacing: -2px;
@@ -514,7 +515,7 @@ section {
 .hero-desc {
   font-size: 1.1rem;
   color: #555;
-  max-width: 420px;
+  /* max-width: 420px; */
 }
 .hero-right {
   flex: 1;
@@ -588,9 +589,9 @@ section {
 }
 
 .portfolio-section {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   max-height: fit-content;
-  margin: 0 auto 0rem auto;
+  /* margin: 0 auto 0rem auto; */
   /* padding: 2.5rem 0rem; */
   /* overflow-x: auto; */
   /* overflow-y: auto; */
@@ -643,8 +644,8 @@ section {
 }
 
 .experience-section-minimal {
-  max-width: 1100px;
-  margin: 0 auto 0rem auto;
+  /* max-width: 1100px;
+  margin: 0 auto 0rem auto; */
 }
 .experience-section-minimal h2 {
   font-size: 2.1rem;
@@ -669,7 +670,7 @@ section {
   border-radius: 10px;
   padding: 1.1rem 1.3rem 1.1rem 1.3rem;
   box-shadow: 0 2px 8px 0 #ececec;
-  border-left: 3px solid #181818;
+  border-left: 4px solid #6a7ede;
 }
 .exp-row {
   display: flex;
@@ -796,7 +797,7 @@ section {
 }
 
 .footer-minimal {
-  background: #181818;
+  background: transparent;
   color: #fff;
   padding: 2.5rem 0 1.5rem 0;
   text-align: center;
